@@ -5,9 +5,6 @@
 #  Created by Diego on 2024/12/03 15:55:48.
 #  Copyright © Diego. All rights reserved.
 
-if __name__ == "__main__":
-    pass
-
 import json
 import machine
 import select

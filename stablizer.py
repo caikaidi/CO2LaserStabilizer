@@ -6,9 +6,6 @@
 #  Copyright © Diego. All rights reserved.
 
 
-if __name__ == "__main__":
-    pass
-
 import json
 import time
 
