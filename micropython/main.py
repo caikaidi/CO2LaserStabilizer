@@ -5,14 +5,14 @@
 #  Created by Diego on 2024/12/03 15:55:48.
 #  Copyright © Diego. All rights reserved.
 
+import _thread
 import json
-import machine
 import select
 import sys
 import time
-import _thread
 from _thread import allocate_lock
 
+import machine
 from _display import Display
 
 

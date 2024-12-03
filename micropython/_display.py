@@ -5,8 +5,9 @@
 #  Created by Diego on 2023/04/07 19:37:42.
 #  Copyright © Diego. All rights reserved.
 
-import utime
 import math
+
+import utime
 from machine import I2C
 from sh1106 import SH1106_I2C
 

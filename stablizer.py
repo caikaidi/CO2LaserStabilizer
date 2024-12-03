@@ -8,22 +8,21 @@
 
 import json
 import time
+from io import BytesIO
 
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from io import BytesIO
 import pyvisa
 import serial
 import serial.tools.list_ports
 import streamlit as st
 
-DEFAULT_PID_VALUES = (150000.0, 7000.0, 0.0, 0.0)
+DEFAULT_PID_VALUES = (350000.0, 7000.0, 0.0, 0.0)
 POWER_INTERVAL = 0.05  # 功率测量间隔（秒）
 TIME_RANGE = 30  # 功率曲线显示时间范围（秒）
 
 st.title("功率稳定器")
-
 st.header("1. 连接功率计")
 
 
